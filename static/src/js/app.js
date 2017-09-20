@@ -3,15 +3,11 @@
  * Created by BWY on 2017/9/19.
  */
 requirejs.config({
-    baseUrl: '../src/js',
-    paths: {
-        helper: "libs/helper1",
-        bar: 'foo'
-    }
+    baseUrl: '../src/js'
 })
 
-require(['helper','bar'],function(helper,bar) {
-    console.log('bar='+bar);
+require(['helper'],function(helper) {
+    // console.log('helper='+helper);
     var str = helper.trim('   amd    ');
     console.log(str);
 })
