@@ -785,6 +785,8 @@ var requirejs, require, define;
                 if (options.enabled || this.enabled) {
                     //Enable this module and dependencies.
                     //Will call this.check()
+                    console.log('Module.init,this.depMaps=');
+                    console.log(this.depMaps);
                     this.enable();
                 } else {
                     this.check();
@@ -1280,6 +1282,8 @@ var requirejs, require, define;
              * @param {Object} cfg config object to integrate.
              */
             configure: function (cfg) {
+                console.log('begin configure fun,cfg.deps=');
+                console.log(cfg.deps);
                 //Make sure the baseUrl ends in a slash.
                 if (cfg.baseUrl) {
                     if (cfg.baseUrl.charAt(cfg.baseUrl.length - 1) !== '/') {
@@ -1384,6 +1388,8 @@ var requirejs, require, define;
                 //require with those args. This is useful when require is defined as a
                 //config object before require.js is loaded.
                 if (cfg.deps || cfg.callback) {
+                    console.log('before context.require,cfg.deps=');
+                    console.log(cfg.deps);
                     context.require(cfg.deps || [], cfg.callback);
                 }
             },
@@ -1452,6 +1458,8 @@ var requirejs, require, define;
                         intakeDefines();
 
                         requireMod = getModule(makeModuleMap(null, relMap));
+                        console.log('nextTick----,requireMod=');
+                        console.log(requireMod);
 
                         //Store if map config should be applied to this require
                         //call for dependencies.
@@ -1791,6 +1799,8 @@ var requirejs, require, define;
         }
 
         if (config) {
+            console.log('in req, config is$$$$$$$$$$');
+            console.log(config);
             context.configure(config);
         }
 

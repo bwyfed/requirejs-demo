@@ -4,8 +4,8 @@
 define('bar',['jquery'],function($){
     console.log('bar');
     return {
-        trim: function(str) {
-            return $.trim(str);
+        type: function(obj) {
+            return $.type(obj);
         }
     }
 })
