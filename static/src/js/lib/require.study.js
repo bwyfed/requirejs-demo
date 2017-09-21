@@ -785,6 +785,9 @@ var requirejs, require, define;
                 if (options.enabled || this.enabled) {
                     //Enable this module and dependencies.
                     //Will call this.check()
+                    console.log('Module.init,this.depMaps=');
+                    console.log(this.depMaps);
+                    console.log('call enable()');
                     this.enable();
                 } else {
                     this.check();
@@ -853,11 +856,13 @@ var requirejs, require, define;
                 if (!this.inited) {
                     // Only fetch if not already in the defQueue.
                     if (!hasProp(context.defQueueMap, id)) {
+                        console.log('in check(),fetch it');
                         this.fetch();
                     }
                 } else if (this.error) {
                     this.emit('error', this.error);
                 } else if (!this.defining) {
+                    console.log('in check(),!this.defining');
                     //The factory could trigger another require call
                     //that would result in checking this module to
                     //define itself again. If already in the process
@@ -1131,11 +1136,15 @@ var requirejs, require, define;
 
                         this.depCount += 1;
 
+                        console.log('in enable(),depMap=');
+                        console.log(depMap);
+
                         on(depMap, 'defined', bind(this, function (depExports) {
                             if (this.undefed) {
                                 return;
                             }
                             this.defineDep(i, depExports);
+                            console.log('in enable(), before check()');
                             this.check();
                         }));
 
@@ -1280,6 +1289,8 @@ var requirejs, require, define;
              * @param {Object} cfg config object to integrate.
              */
             configure: function (cfg) {
+                console.log('begin configure fun,cfg.deps=');
+                console.log(cfg.deps);
                 //Make sure the baseUrl ends in a slash.
                 if (cfg.baseUrl) {
                     if (cfg.baseUrl.charAt(cfg.baseUrl.length - 1) !== '/') {
@@ -1384,6 +1395,8 @@ var requirejs, require, define;
                 //require with those args. This is useful when require is defined as a
                 //config object before require.js is loaded.
                 if (cfg.deps || cfg.callback) {
+                    console.log('before context.require,cfg.deps=');
+                    console.log(cfg.deps);
                     context.require(cfg.deps || [], cfg.callback);
                 }
             },
@@ -1403,6 +1416,8 @@ var requirejs, require, define;
                 options = options || {};
 
                 function localRequire(deps, callback, errback) {
+                    console.log("localRequire begin,deps=");
+                    console.log(deps);
                     var id, map, requireMod;
 
                     if (options.enableBuildCallback && callback && isFunction(callback)) {
@@ -1449,14 +1464,18 @@ var requirejs, require, define;
                     context.nextTick(function () {
                         //Some defines could have been added since the
                         //require call, collect them.
+                        console.log('nextTick,begin----');
                         intakeDefines();
 
                         requireMod = getModule(makeModuleMap(null, relMap));
+                        // console.log(requireMod);
 
                         //Store if map config should be applied to this require
                         //call for dependencies.
                         requireMod.skipMap = options.skipMap;
 
+                        console.log('before requireMod.init,pass deps:');
+                        console.log(deps);
                         requireMod.init(deps, callback, errback, {
                             enabled: true
                         });
@@ -1791,6 +1810,8 @@ var requirejs, require, define;
         }
 
         if (config) {
+            console.log('in req, config is$$$$$$$$$$');
+            console.log(config);
             context.configure(config);
         }
 

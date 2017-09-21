@@ -13,6 +13,15 @@ requirejs.config({
     }
 })
 
+require(['jquery','./app/api'], function($,api) {
+    $('#user').click(function(){
+        api.getUser().then(function(user){
+            console.log(user);
+        })
+    })
+})
+
+/*
 require(['helper','bar'],function(helper,bar) {
     // console.log('helper='+helper);
     var str = helper.trim('   amd    ');
@@ -20,3 +29,4 @@ require(['helper','bar'],function(helper,bar) {
     var t = bar.type(function () {});
     console.log(t);
 })
+*/
