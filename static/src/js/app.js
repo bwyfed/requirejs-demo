@@ -30,7 +30,14 @@ requirejs.config({
 
 })
 
-require(['app/api2','backbone'],function(api){})
+require(['app/api','backbone'],function(api){
+    $("#user").click(function(){
+        // api.getUserByJsonp();
+        api.getUserByJsonp2();
+    })
+})
+
+// require(['app/api2','backbone'],function(api){})
 /*
 require(['jquery','./app/api','modernizr','backbone','bootstrap'],
     function($,api,modernizr,backbone) {
