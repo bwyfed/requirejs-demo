@@ -5,10 +5,7 @@
 requirejs.config({
     baseUrl: '../src/js',
     paths: {
-        'jquery': [
-            'http://code.jquery.com/jquery-3.2.1',
-            './lib/jquery'
-        ],
+        'jquery': './lib/jquery',
         'bootstrap': './lib/bootstrap',
         'modernizr': './lib/modernizr',
         'backbone': './lib/backbone',
@@ -19,9 +16,20 @@ requirejs.config({
             exports: 'Modernizr'
         },
         'bootstrap': ['jquery']
+    },
+    map: {
+        '*': {
+            'jquery': './lib/jquery'
+        },
+        'app/api2': {
+            'jquery': './lib/jquery2'
+        }
     }
+
 })
 
+require(['./app/api2','backbone'],function(api){})
+/*
 require(['jquery','./app/api','modernizr','backbone','bootstrap'],
     function($,api,modernizr,backbone) {
     console.log(backbone);
@@ -31,7 +39,7 @@ require(['jquery','./app/api','modernizr','backbone','bootstrap'],
         })
     })
 })
-
+*/
 /*
 require(['helper','bar'],function(helper,bar) {
     // console.log('helper='+helper);
