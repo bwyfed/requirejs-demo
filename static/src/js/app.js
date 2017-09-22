@@ -12,17 +12,23 @@ requirejs.config({
         'modernizr': './lib/modernizr',
         'backbone': './lib/backbone',
         'underscore': './lib/underscore',
-        'text': './lib/text'
+        'text': './lib/text',
+        'jquery-ui': './lib/jquery-ui'
     },
     shim: {
         'modernizr': {
             exports: 'Modernizr'
         },
-        'bootstrap': ['jquery']
+        'bootstrap': ['jquery'],
+        'jquery-ui': [
+            'css!../css/jquery-ui/jquery-ui.css',
+            'css!../css/jquery-ui/jquery-ui.theme.css'
+        ]
     },
     map: {
         '*': {
-            'jquery': 'jquery'
+            'jquery': 'jquery',
+            'css': './lib/require/css'
         },
         'app/api2': {
             'jquery': 'jquery2'
@@ -38,7 +44,10 @@ requirejs.config({
 
 })
 
-require(['app/api','backbone'],function(api){
+require(['app/api',
+    'backbone',
+    'jquery-ui',
+],function(api){
     $("#user").click(function(){
         // api.getUserByJsonp();
         // api.getUserByJsonp2();
