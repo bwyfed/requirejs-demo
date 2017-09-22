@@ -4,8 +4,10 @@
  */
 requirejs.config({
     baseUrl: '../src/js',
+    urlArgs: '_=' + new Date().getTime(),
     paths: {
         'jquery': './lib/jquery',
+        'jquery2': './lib/jquery2',
         'bootstrap': './lib/bootstrap',
         'modernizr': './lib/modernizr',
         'backbone': './lib/backbone',
@@ -19,16 +21,16 @@ requirejs.config({
     },
     map: {
         '*': {
-            'jquery': './lib/jquery'
+            'jquery': 'jquery'
         },
         'app/api2': {
-            'jquery': './lib/jquery2'
+            'jquery': 'jquery2'
         }
     }
 
 })
 
-require(['./app/api2','backbone'],function(api){})
+require(['app/api2','backbone'],function(api){})
 /*
 require(['jquery','./app/api','modernizr','backbone','bootstrap'],
     function($,api,modernizr,backbone) {
