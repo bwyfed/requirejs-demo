@@ -9,11 +9,22 @@ requirejs.config({
             'http://code.jquery.com/jquery-3.2.1',
             './lib/jquery'
         ],
-        'bar': 'foo'
+        'bootstrap': './lib/bootstrap',
+        'modernizr': './lib/modernizr',
+        'backbone': './lib/backbone',
+        'underscore': './lib/underscore'
+    },
+    shim: {
+        'modernizr': {
+            exports: 'Modernizr'
+        },
+        'bootstrap': ['jquery']
     }
 })
 
-require(['jquery','./app/api'], function($,api) {
+require(['jquery','./app/api','modernizr','backbone','bootstrap'],
+    function($,api,modernizr,backbone) {
+    console.log(backbone);
     $('#user').click(function(){
         api.getUser().then(function(user){
             console.log(user);
