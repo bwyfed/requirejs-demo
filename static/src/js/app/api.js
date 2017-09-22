@@ -24,6 +24,11 @@ define(['jquery'], function($) {
             require(['http://localhost:3000/user.amd.js'],function(user){
                 console.log(user);
             });
+        },
+        loadUser: function() {
+            require(['text!../../html/user.html!strip'],function(template){
+                $("#userinfo").html(template);
+            })
         }
     }
 })

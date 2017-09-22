@@ -11,7 +11,8 @@ requirejs.config({
         'bootstrap': './lib/bootstrap',
         'modernizr': './lib/modernizr',
         'backbone': './lib/backbone',
-        'underscore': './lib/underscore'
+        'underscore': './lib/underscore',
+        'text': './lib/text'
     },
     shim: {
         'modernizr': {
@@ -26,6 +27,13 @@ requirejs.config({
         'app/api2': {
             'jquery': 'jquery2'
         }
+    },
+    config: {
+        text: {
+            onXhr: function(xhr, url) {
+                xhr.setRequestHeader('X-Requested-With','XMLHttpRequest');
+            }
+        }
     }
 
 })
@@ -33,7 +41,8 @@ requirejs.config({
 require(['app/api','backbone'],function(api){
     $("#user").click(function(){
         // api.getUserByJsonp();
-        api.getUserByJsonp2();
+        // api.getUserByJsonp2();
+        api.loadUser();
     })
 })
 
