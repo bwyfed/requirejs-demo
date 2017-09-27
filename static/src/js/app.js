@@ -12,7 +12,7 @@ requirejs.config({
         'modernizr': './lib/modernizr',
         'backbone': './lib/backbone',
         'underscore': './lib/underscore',
-        'text': './lib/text',
+        'text': './lib/require/text',
         'jquery-ui': './lib/jquery-ui'
     },
     shim: {
