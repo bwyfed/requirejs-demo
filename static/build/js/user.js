@@ -1,0 +1,1 @@
+define(["./lib/jquery"],function(e){console.log(e)});

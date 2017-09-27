@@ -1,0 +1,1 @@
+define(["jquery"],function(e){return{getUser:function(){var r=e.Deferred();return require(["./app/user"],function(e){r.resolve(e)}),r}}});

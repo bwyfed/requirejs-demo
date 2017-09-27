@@ -1,0 +1,1 @@
+define("bar",["jquery"],function(e){return console.log("bar"),{type:function(n){return e.type(n)}}});

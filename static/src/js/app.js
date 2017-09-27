@@ -2,6 +2,7 @@
 /**
  * Created by BWY on 2017/9/19.
  */
+/*
 requirejs.config({
     baseUrl: '../src/js',
     urlArgs: '_=' + new Date().getTime(),
@@ -43,7 +44,7 @@ requirejs.config({
     }
 
 })
-
+*/
 require(['app/api',
     'backbone',
     'jquery-ui',
