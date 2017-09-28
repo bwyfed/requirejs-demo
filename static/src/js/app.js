@@ -2,6 +2,11 @@
 /**
  * Created by BWY on 2017/9/19.
  */
+var language = document.cookie.match(/language=[^;]+/);
+var locale = 'zh-cn';
+if(language) {
+    locale = language[0].split('=')[1];
+}
 
 requirejs.config({
     baseUrl: '../src/js',
@@ -15,7 +20,8 @@ requirejs.config({
         'underscore': './lib/underscore',
         'text': './lib/require/text',
         'jquery-ui': './lib/jquery-ui',
-        'css': './lib/require/css'
+        'css': './lib/require/css',
+        'i18n': './lib/require/i18n'
     },
     shim: {
         'modernizr': {
@@ -42,6 +48,9 @@ requirejs.config({
             onXhr: function(xhr, url) {
                 xhr.setRequestHeader('X-Requested-With','XMLHttpRequest');
             }
+        },
+        i18n: {
+            locale: locale
         }
     }
 
@@ -58,11 +67,21 @@ require(['app/api',
     })
 })
 */
+//i18n!插件的使用
+require(['./app/api',
+    'backbone',
+    'i18n!./nls/messages',
+    'jquery-ui'
+], function(api,backbone,i18n){
+    $('#user').after('<button class="btn btn-default">'+i18n.edit+'</button>')
+})
+/*
 //css!插件使用
 require(['./app/api',
     'backbone',
     'jquery-ui'], function(){
 })
+*/
 /*
 //css!插件使用
 require(['./app/api',
