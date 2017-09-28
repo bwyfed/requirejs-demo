@@ -14,7 +14,8 @@ requirejs.config({
         'backbone': './lib/backbone',
         'underscore': './lib/underscore',
         'text': './lib/require/text',
-        'jquery-ui': './lib/jquery-ui'
+        'jquery-ui': './lib/jquery-ui',
+        'css': './lib/require/css'
     },
     shim: {
         'modernizr': {
@@ -26,15 +27,15 @@ requirejs.config({
             'css!../css/jquery-ui/jquery-ui.theme.css'
         ]
     },
-    map: {
-        '*': {
-            'jquery': 'jquery',
-            'css': './lib/require/css'
-        },
-        'app/api2': {
-            'jquery': 'jquery2'
-        }
-    },
+    // map: {
+    //     '*': {
+    //         'jquery': 'jquery',
+    //         'css': './lib/require/css'
+    //     },
+    //     'app/api2': {
+    //         'jquery': 'jquery2'
+    //     }
+    // },
     config: {
         //配置text!插件选项
         text: {
@@ -57,12 +58,28 @@ require(['app/api',
     })
 })
 */
+//css!插件使用
+require(['./app/api',
+    'backbone',
+    'jquery-ui'], function(){
+})
+/*
+//css!插件使用
+require(['./app/api',
+    'backbone',
+    'jquery-ui',
+    'css!../css/jquery-ui/jquery-ui.css',
+    'css!../css/jquery-ui/jquery-ui.theme.css'], function(){
+})
+*/
+/*
 //text!插件使用
 require(['./app/api','backbone'], function(api){
     $("#user").click(function(){
         api.loadUser();
     })
 })
+*/
 // require(['app/api2','backbone'],function(api){})
 /*
 require(['jquery','./app/api','modernizr','backbone','bootstrap'],
