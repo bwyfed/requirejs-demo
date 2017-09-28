@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c700e8d2-cbe1-40bc-b38c-d066cab7d358" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/build/js/lib/require/css-builder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/build/js/lib/require/normalize.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/app.build.js" afterPath="$PROJECT_DIR$/static/app.build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/build.txt" afterPath="$PROJECT_DIR$/static/build/build.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/css/index.css" afterPath="$PROJECT_DIR$/static/build/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/app.js" afterPath="$PROJECT_DIR$/static/build/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/require.conf.js" afterPath="$PROJECT_DIR$/static/build/js/require.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/html/index.html" afterPath="$PROJECT_DIR$/static/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/src/css/index.css" afterPath="$PROJECT_DIR$/static/src/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/src/js/app.js" afterPath="$PROJECT_DIR$/static/src/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/src/js/require.conf.js" afterPath="$PROJECT_DIR$/static/src/js/require.conf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/src/js/lib/require/css-builder.js" afterPath="$PROJECT_DIR$/static/src/js/lib/require/css-builder.bak.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/src/js/lib/require/normalize.js" afterPath="$PROJECT_DIR$/static/src/js/lib/require/normalize.bak.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -566,7 +553,7 @@
       <workItem from="1506322189863" duration="797000" />
       <workItem from="1506388653175" duration="251000" />
       <workItem from="1506478498991" duration="1138000" />
-      <workItem from="1506559403865" duration="22267000" />
+      <workItem from="1506559403865" duration="22319000" />
     </task>
     <task id="LOCAL-00001" summary="演示引用jquery时的路径和引用成功与否。">
       <created>1505868042863</created>
@@ -680,11 +667,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506585236149</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="测试使用配置文件来打包。">
+      <created>1506593867081</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1506593867081</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88155000" />
+    <option name="totallyTimeSpent" value="88207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -759,7 +753,8 @@
     <MESSAGE value="重新梳理使用text插件的相关代码。" />
     <MESSAGE value="重新梳理使用css插件的相关代码。" />
     <MESSAGE value="使用i18n插件进行国际化，编写示例。" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用i18n插件进行国际化，编写示例。" />
+    <MESSAGE value="测试使用配置文件来打包。" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试使用配置文件来打包。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
