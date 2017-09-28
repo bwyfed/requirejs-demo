@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c700e8d2-cbe1-40bc-b38c-d066cab7d358" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/require/css-builder.bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/require/i18n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/require/normalize.bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/nls/en/messages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/nls/messages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/nls/zh/messages.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -553,7 +559,7 @@
       <workItem from="1506322189863" duration="797000" />
       <workItem from="1506388653175" duration="251000" />
       <workItem from="1506478498991" duration="1138000" />
-      <workItem from="1506559403865" duration="22319000" />
+      <workItem from="1506559403865" duration="22342000" />
     </task>
     <task id="LOCAL-00001" summary="演示引用jquery时的路径和引用成功与否。">
       <created>1505868042863</created>
@@ -674,11 +680,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506593867081</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="测试使用配置文件来打包。">
+      <created>1506593877010</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1506593877010</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88207000" />
+    <option name="totallyTimeSpent" value="88230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
