@@ -2,7 +2,7 @@
 /**
  * Created by BWY on 2017/9/19.
  */
-/*
+
 requirejs.config({
     baseUrl: '../src/js',
     urlArgs: '_=' + new Date().getTime(),
@@ -36,6 +36,7 @@ requirejs.config({
         }
     },
     config: {
+        //配置text!插件选项
         text: {
             onXhr: function(xhr, url) {
                 xhr.setRequestHeader('X-Requested-With','XMLHttpRequest');
@@ -44,7 +45,7 @@ requirejs.config({
     }
 
 })
-*/
+/*
 require(['app/api',
     'backbone',
     'jquery-ui',
@@ -55,7 +56,13 @@ require(['app/api',
         api.loadUser();
     })
 })
-
+*/
+//text!插件使用
+require(['./app/api','backbone'], function(api){
+    $("#user").click(function(){
+        api.loadUser();
+    })
+})
 // require(['app/api2','backbone'],function(api){})
 /*
 require(['jquery','./app/api','modernizr','backbone','bootstrap'],
