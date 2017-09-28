@@ -2,6 +2,7 @@
 /**
  * Created by BWY on 2017/9/19.
  */
+/*
 var language = document.cookie.match(/language=[^;]+/);
 var locale = 'zh-cn';
 if(language) {
@@ -55,18 +56,20 @@ requirejs.config({
     }
 
 })
-/*
+*/
+//打包测试
 require(['app/api',
     'backbone',
-    'jquery-ui',
+    'i18n!./nls/messages'
+    // 'jquery-ui',
 ],function(api){
+    $('#user').after('<button class="btn btn-default">'+i18n.edit+'</button>')
     $("#user").click(function(){
-        // api.getUserByJsonp();
-        // api.getUserByJsonp2();
         api.loadUser();
     })
 })
-*/
+
+/*
 //i18n!插件的使用
 require(['./app/api',
     'backbone',
@@ -75,6 +78,7 @@ require(['./app/api',
 ], function(api,backbone,i18n){
     $('#user').after('<button class="btn btn-default">'+i18n.edit+'</button>')
 })
+*/
 /*
 //css!插件使用
 require(['./app/api',

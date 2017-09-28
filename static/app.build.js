@@ -5,7 +5,6 @@
     appDir: './src',
     baseUrl: './js',
     dir: './build',
-    mainConfigFile: 'src/js/require.conf.js',
-    name: 'app',
-    opitimize: 'none'
+    mainConfigFile: './src/js/require.conf.js',
+    name: 'app'
 })

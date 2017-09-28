@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>requirejs demo</title>
-    <link rel="stylesheet" type="text/css" href="../src/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="/build/css/index.css"/>
 </head>
 <body>
     <div class="text-center">
@@ -13,9 +13,10 @@
         <div id="userinfo"></div>
     </div>
 
-    <script data-main="../src/js/app.js" src="../src/js/lib/require/require.js"></script>
+    <!--<script data-main="../src/js/app.js" src="../src/js/lib/require/require.js"></script>-->
     <!--<script data-main="../build/js/app.js" src="../src/js/lib/require/require.js"></script>-->
-    <!--<script src="../build/js/lib/require/require.js"></script>-->
-    <!--<script src="../build/js/app.js"></script>-->
+    <script src="/build/js/lib/require/require.js"></script>
+    <script src="/build/js/require.conf.js"></script>
+    <script src="/build/js/app.js"></script>
 </body>
 </html>

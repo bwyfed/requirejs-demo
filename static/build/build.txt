@@ -22,9 +22,8 @@ js/lib/jquery.js
 js/app/api.js
 js/lib/underscore.js
 js/lib/backbone.js
-js/lib/require/normalize.js
-js/lib/require/css.js
-lib/require/css!../css/jquery-ui/jquery-ui
-lib/require/css!../css/jquery-ui/jquery-ui.theme
-js/lib/jquery-ui.js
+js/lib/require/i18n.js
+js/nls/messages.js
+js/nls/zh/messages.js
+i18n!nls/messages
 js/app.js
