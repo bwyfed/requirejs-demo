@@ -60,13 +60,15 @@ requirejs.config({
 //打包测试
 require(['app/api',
     'backbone',
-    'i18n!./nls/messages'
-    // 'jquery-ui',
+    'i18n!./nls/messages',
+    'bootstrap',
+    'jquery-ui'
 ],function(api,backbone,i18n){
     $('#user').after('<button class="btn btn-default">'+i18n.edit+'</button>')
     $("#user").click(function(){
         api.loadUser();
     })
+    $("#dialog").dialog();
 })
 
 /*

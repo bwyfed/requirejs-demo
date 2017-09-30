@@ -1,36 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c700e8d2-cbe1-40bc-b38c-d066cab7d358" name="Default" comment="">
+    <list default="true" id="c700e8d2-cbe1-40bc-b38c-d066cab7d358" name="Default" comment="解决text!插件打包的问题。">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui/images/ui-icons_444444_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui/images/ui-icons_555555_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui/images/ui-icons_777620_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui/images/ui-icons_777777_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui/images/ui-icons_cc0000_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/src/js/lib/jquery-ui/images/ui-icons_444444_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/src/js/lib/jquery-ui/images/ui-icons_555555_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/src/js/lib/jquery-ui/images/ui-icons_777620_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/src/js/lib/jquery-ui/images/ui-icons_777777_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/src/js/lib/jquery-ui/images/ui-icons_cc0000_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/src/js/lib/jquery-ui/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/build/js/lib/require/normalize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/src/js/lib/jquery-ui/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/src/js/lib/require/css-builder.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/build/css/jquery-ui/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/build/css/jquery-ui/jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/build/js/lib/require/css-builder.bak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/build/js/lib/require/normalize.bak.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/app.build.js" afterPath="$PROJECT_DIR$/static/app.build.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/build.txt" afterPath="$PROJECT_DIR$/static/build/build.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/app.js" afterPath="$PROJECT_DIR$/static/build/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/app/api.js" afterPath="$PROJECT_DIR$/static/build/js/app/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/app/api2.js" afterPath="$PROJECT_DIR$/static/build/js/app/api2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/app/user.js" afterPath="$PROJECT_DIR$/static/build/js/app/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/foo.js" afterPath="$PROJECT_DIR$/static/build/js/foo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/helper.js" afterPath="$PROJECT_DIR$/static/build/js/helper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/backbone.js" afterPath="$PROJECT_DIR$/static/build/js/lib/backbone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/bootstrap.js" afterPath="$PROJECT_DIR$/static/build/js/lib/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/jquery-ui.js" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/jquery.js" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/jquery2.js" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/modernizr.js" afterPath="$PROJECT_DIR$/static/build/js/lib/modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/require.study.js" afterPath="$PROJECT_DIR$/static/build/js/lib/require.study.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/require/css-builder.bak.js" afterPath="$PROJECT_DIR$/static/build/js/lib/require/css-builder.bak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/require/css.js" afterPath="$PROJECT_DIR$/static/build/js/lib/require/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/require/i18n.js" afterPath="$PROJECT_DIR$/static/build/js/lib/require/i18n.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/require/normalize.bak.js" afterPath="$PROJECT_DIR$/static/build/js/lib/require/normalize.bak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/require/require.js" afterPath="$PROJECT_DIR$/static/build/js/lib/require/require.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/require/text.js" afterPath="$PROJECT_DIR$/static/build/js/lib/require/text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/lib/underscore.js" afterPath="$PROJECT_DIR$/static/build/js/lib/underscore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/nls/en/messages.js" afterPath="$PROJECT_DIR$/static/build/js/nls/en/messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/nls/messages.js" afterPath="$PROJECT_DIR$/static/build/js/nls/messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/nls/zh/messages.js" afterPath="$PROJECT_DIR$/static/build/js/nls/zh/messages.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/require.conf.js" afterPath="$PROJECT_DIR$/static/build/js/require.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/build/js/user.js" afterPath="$PROJECT_DIR$/static/build/js/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/src/js/app/api.js" afterPath="$PROJECT_DIR$/static/src/js/app/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/html/index.html" afterPath="$PROJECT_DIR$/static/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/src/js/app.js" afterPath="$PROJECT_DIR$/static/src/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/src/js/require.conf.js" afterPath="$PROJECT_DIR$/static/src/js/require.conf.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/build/js/lib/jquery-ui.js" afterPath="$PROJECT_DIR$/static/build/js/lib/jquery-ui/jquery-ui.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/src/css/jquery-ui/jquery-ui.css" afterPath="$PROJECT_DIR$/static/src/js/lib/jquery-ui/jquery-ui.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/src/css/jquery-ui/jquery-ui.theme.css" afterPath="$PROJECT_DIR$/static/src/js/lib/jquery-ui/jquery-ui.theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/src/js/lib/jquery-ui.js" afterPath="$PROJECT_DIR$/static/src/js/lib/jquery-ui/jquery-ui.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/src/js/lib/require/css-builder.bak.js" afterPath="$PROJECT_DIR$/static/build/js/lib/require/css-builder.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/src/js/lib/require/normalize.bak.js" afterPath="$PROJECT_DIR$/static/src/js/lib/require/normalize.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +55,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="200">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -80,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="require.conf.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="require.conf.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/src/js/require.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-275">
-              <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="136">
+              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -95,18 +101,18 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="66" column="36" lean-forward="false" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/src/js/app/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="175">
+              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <element signature="e#152#324#0" expanded="false" />
                 <element signature="e#361#639#0" expanded="false" />
@@ -128,7 +134,7 @@
       <file leaf-file-name="app.build.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/app.build.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="15">
               <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
@@ -195,12 +201,12 @@
         <option value="$PROJECT_DIR$/static/src/js/nls/en/messages.js" />
         <option value="$PROJECT_DIR$/static/src/js/nls/zh/messages.js" />
         <option value="$PROJECT_DIR$/static/src/js/nls/messages.js" />
-        <option value="$PROJECT_DIR$/static/src/js/require.conf.js" />
         <option value="$PROJECT_DIR$/static/src/css/index.css" />
-        <option value="$PROJECT_DIR$/static/html/index.html" />
-        <option value="$PROJECT_DIR$/static/src/js/app.js" />
         <option value="$PROJECT_DIR$/static/app.build.js" />
         <option value="$PROJECT_DIR$/static/src/js/app/api.js" />
+        <option value="$PROJECT_DIR$/static/src/js/app.js" />
+        <option value="$PROJECT_DIR$/static/src/js/require.conf.js" />
+        <option value="$PROJECT_DIR$/static/html/index.html" />
       </list>
     </option>
   </component>
@@ -311,7 +317,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="requirejs-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="requirejs-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="require" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="requirejs-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="requirejs-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery-ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,47 +413,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="requirejs-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="requirejs-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="requirejs-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="requirejs-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="requirejs-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="requirejs-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -441,19 +489,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Learning\requirejs-demo\static\src\js\lib\jquery-ui" />
+      <recent name="E:\Learning\requirejs-demo\static\src\js\lib" />
+      <recent name="E:\Learning\requirejs-demo\static\build\js\lib\jquery-ui" />
+      <recent name="E:\Learning\requirejs-demo\static" />
+      <recent name="E:\Learning\requirejs-demo\static\src\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Learning\requirejs-demo\static\src\js\lib\jquery-ui" />
+      <recent name="E:\Learning\requirejs-demo\static\src\js\lib" />
+      <recent name="E:\Learning\requirejs-demo\static\build\js\lib" />
       <recent name="E:\Learning\requirejs-demo\static\src\js\nls\zh" />
       <recent name="E:\Learning\requirejs-demo\static\src\js\nls\en" />
-      <recent name="E:\Learning\requirejs-demo\static\src" />
-      <recent name="E:\Learning\requirejs-demo\static\src\css\jquery-ui" />
-      <recent name="E:\Learning\requirejs-demo\static\src\js\lib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Learning\requirejs-demo\static" />
-      <recent name="E:\Learning\requirejs-demo\static\src\js\lib" />
-      <recent name="E:\Learning\requirejs-demo\static\src\js" />
-      <recent name="E:\Learning2\requirejs-demo\static\src\js\libs" />
-      <recent name="E:\Learning\requirejs-demo\static\src\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -703,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506742787632</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="解决text!插件打包的问题。">
+      <created>1506750868391</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1506750868391</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92118000" />
+    <option name="totallyTimeSpent" value="95497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -716,7 +771,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41247833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4592721" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.75043327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -794,7 +849,8 @@
     <MESSAGE value="测试使用配置文件来打包。" />
     <MESSAGE value="解决打包时define(...) is not a function的问题。" />
     <MESSAGE value="多模块打包示例。" />
-    <option name="LAST_COMMIT_MESSAGE" value="多模块打包示例。" />
+    <MESSAGE value="解决text!插件打包的问题。" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决text!插件打包的问题。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -803,27 +859,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/src/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/js/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/js/lib/require.study.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -943,14 +978,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/js/lib/jquery-ui.js">
+    <entry file="file://$PROJECT_DIR$/static/src/js/lib/jquery-ui/jquery-ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-845">
           <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/css/jquery-ui/jquery-ui.theme.css">
+    <entry file="file://$PROJECT_DIR$/static/src/js/lib/jquery-ui/jquery-ui.theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1008,10 +1043,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/css/jquery-ui/jquery-ui.css">
+    <entry file="file://$PROJECT_DIR$/static/src/js/lib/jquery-ui/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,22 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/build/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/src/js/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1136,27 +1156,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/js/require.conf.js">
+    <entry file="file://$PROJECT_DIR$/static/build/js/lib/jquery-ui/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="175">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/js/lib/jquery-ui.bak/jquery-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/js/lib/jquery-ui/jquery-ui.structure.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/build/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900078">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/js/app/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#152#324#0" expanded="false" />
+            <element signature="e#361#639#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="66" column="36" lean-forward="false" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/app.build.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="15">
           <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
@@ -1164,13 +1217,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/src/js/app/api.js">
+    <entry file="file://$PROJECT_DIR$/static/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="200">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/src/js/require.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
-            <element signature="e#152#324#0" expanded="false" />
-            <element signature="e#361#639#0" expanded="false" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>

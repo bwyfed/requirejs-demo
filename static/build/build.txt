@@ -8,13 +8,17 @@ css/index.css
 css/bootstrap.css
 css/index.css
 
-css/jquery-ui/jquery-ui.css
+js/lib/jquery-ui/jquery-ui.css
 ----------------
-css/jquery-ui/jquery-ui.css
+js/lib/jquery-ui/jquery-ui.css
 
-css/jquery-ui/jquery-ui.theme.css
+js/lib/jquery-ui/jquery-ui.structure.css
 ----------------
-css/jquery-ui/jquery-ui.theme.css
+js/lib/jquery-ui/jquery-ui.structure.css
+
+js/lib/jquery-ui/jquery-ui.theme.css
+----------------
+js/lib/jquery-ui/jquery-ui.theme.css
 
 js/app.js
 ----------------
@@ -28,6 +32,12 @@ js/lib/require/i18n.js
 js/nls/messages.js
 js/nls/zh/messages.js
 i18n!nls/messages
+js/lib/bootstrap.js
+js/lib/require/normalize.js
+js/lib/require/css.js
+lib/require/css!lib/jquery-ui/jquery-ui
+lib/require/css!lib/jquery-ui/jquery-ui.theme
+js/lib/jquery-ui/jquery-ui.js
 js/app.js
 
 js/user.js
