@@ -1,1 +1,11 @@
-define("helper",["jquery"],function(e){return console.log(e),{trim:function(n){return e.trim(n)}}});
+/**
+ * Created by BWY on 2017/9/19.
+ */
+define('helper',['jquery'],function($){
+    console.log($);
+    return {
+        trim: function(str) {
+            return $.trim(str);
+        }
+    }
+})

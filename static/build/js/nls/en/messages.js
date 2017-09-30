@@ -1,1 +1,6 @@
-define({edit:"Edit"});
+/**
+ * Created by BWY on 2017/9/28.
+ */
+define({
+    'edit':'Edit'
+})

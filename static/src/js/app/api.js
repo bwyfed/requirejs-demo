@@ -1,7 +1,7 @@
 /**
  * Created by BWY on 2017/9/21.
  */
-define(['jquery'], function($) {
+define(['jquery','text!/html/user.html!strip'], function($,template) {
     return {
         getUser: function() {
             var def = $.Deferred();
@@ -26,9 +26,12 @@ define(['jquery'], function($) {
             });
         },
         loadUser: function() {
+            /*
             require(['text!../../html/user.html!strip'],function(template){
                 $("#userinfo").html(template);
             })
+            */
+            $("#userinfo").html(template);
         }
     }
 });

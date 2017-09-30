@@ -1,1 +1,41 @@
-define(["jquery"],function(e){return{getUser:function(){var n=e.Deferred();return require(["./app/user"],function(e){n.resolve(e)}),n},getUserByJsonp:function(){e.ajax({url:"http://localhost:3000/user.js",dataType:"jsonp",jsonpCallback:"onloaded",success:function(e){console.log(e)}})},getUserByJsonp2:function(){require(["http://localhost:3000/user.amd.js"],function(e){console.log(e)})},loadUser:function(){require(["text!../../html/user.html!strip"],function(n){e("#userinfo").html(n)})}}});
+/**
+ * Created by BWY on 2017/9/21.
+ */
+define(['jquery','text!/html/user.html!strip'], function($,template) {
+    return {
+        getUser: function() {
+            var def = $.Deferred();
+            require(['./app/user'],function(user){
+                def.resolve(user);
+            })
+            return def;
+        },
+        getUserByJsonp: function() {
+            $.ajax({
+                url: 'http://localhost:3000/user.js',
+                dataType: 'jsonp',
+                jsonpCallback: 'onloaded',
+                success: function(data) {
+                    console.log(data);
+                }
+            })
+        },
+        getUserByJsonp2: function() {
+            require(['http://localhost:3000/user.amd.js'],function(user){
+                console.log(user);
+            });
+        },
+        loadUser: function() {
+            /*
+            require(['text!../../html/user.html!strip'],function(template){
+                $("#userinfo").html(template);
+            })
+            */
+            $("#userinfo").html(template);
+        }
+    }
+});
+
+// function onloaded(user) {
+//     console.log(user);
+// }

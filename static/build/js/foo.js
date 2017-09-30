@@ -1,1 +1,11 @@
-define("bar",["jquery"],function(e){return console.log("bar"),{type:function(n){return e.type(n)}}});
+/**
+ * Created by BWY on 2017/9/19.
+ */
+define('bar',['jquery'],function($){
+    console.log('bar');
+    return {
+        type: function(obj) {
+            return $.type(obj);
+        }
+    }
+})
