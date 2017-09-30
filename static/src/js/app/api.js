@@ -31,7 +31,7 @@ define(['jquery'], function($) {
             })
         }
     }
-})
+});
 
 // function onloaded(user) {
 //     console.log(user);

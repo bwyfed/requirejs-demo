@@ -62,7 +62,7 @@ require(['app/api',
     'backbone',
     'i18n!./nls/messages'
     // 'jquery-ui',
-],function(api){
+],function(api,backbone,i18n){
     $('#user').after('<button class="btn btn-default">'+i18n.edit+'</button>')
     $("#user").click(function(){
         api.loadUser();
