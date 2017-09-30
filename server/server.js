@@ -6,11 +6,24 @@ const opn = require('opn');
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const appconf = require('../application.json');
 const app = express();
-
+console.log('application.json:');
+console.log(appconf);
 const port = 3000;
-const uri = 'http://localhost:' + port + '/html/index.html';
-app.use(express.static(path.join(__dirname,'../static')));   //托管静态资源
+const uri = 'http://localhost:' + port + '/index.html';
+//根据配置的环境是开发还是部署，托管静态资源的目录页不同
+let staticDir;
+if(appconf.debug) {
+    //开发环境，托管static下的src目录
+    staticDir = path.join(__dirname,'../static','./src');
+    console.log('开发环境');
+} else {
+    //生产环境，托管static下的build目录
+    staticDir = path.join(__dirname,'../static','./build');
+    console.log('生产环境');
+}
+app.use(express.static(staticDir));
 // app.use(express.static(path.join(__dirname,'../client/index.html')));
 app.use('/api/whitelist', function(req, res){
     fs.readFile(path.join(__dirname, "../server/whitelist.json"), function (err,data) {
@@ -37,6 +50,6 @@ app.use('/',function (req,res) {
 app.listen(port);
 
 console.log('Server running at '+ uri +'\n');
-opn(uri);
+// opn(uri);
 
 module.exports = app;
