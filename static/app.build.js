@@ -6,5 +6,16 @@
     baseUrl: './js',
     dir: './build',
     mainConfigFile: './src/js/require.conf.js',
-    name: 'app'
+    modules: [
+        {
+            name: 'app',
+            // exclude: ['backbone'],
+            // excludeShallow: ['backbone'],
+            // include: ['modernizr'],
+            insertRequire: ['modernizr']
+        },
+        {
+        name: 'user'
+        }
+    ]
 })

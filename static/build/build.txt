@@ -27,3 +27,8 @@ js/nls/messages.js
 js/nls/zh/messages.js
 i18n!nls/messages
 js/app.js
+
+js/user.js
+----------------
+js/lib/jquery.js
+js/user.js
