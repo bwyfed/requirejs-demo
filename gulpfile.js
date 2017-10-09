@@ -35,7 +35,7 @@ gulp.task('build:js',()=>{
         baseUrl: './static/src/js',
         out: './static/build',
         optimize: 'none',
-        mainConfigFile: './static/src/js/require.conf.js',
+        mainConfigFile: './static/src/js/require.gulp.conf.js',
         inlineText: false,
         name: 'app',
         insertRequire: ['lib/modernizr']

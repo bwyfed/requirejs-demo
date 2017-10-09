@@ -1,0 +1,12 @@
+@import "bootstrap.css";
+@import "jquery-ui/jquery-ui.css";
+@import "jquery-ui/jquery-ui.theme.css";
+@import "jquery-ui/jquery-ui.structure.css";
+h1 {
+    color: green;
+}
+.user {
+    text-align: left;
+    width: 400px;
+    margin: 20px auto;
+}
