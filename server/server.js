@@ -24,6 +24,8 @@ if(appconf.debug) {
     console.log('生产环境');
 }
 app.use(express.static(staticDir));
+//代理template下面的html文件，使得前端能直接访问到它们。
+app.use(express.static(path.join(__dirname,'../template')));
 // app.use(express.static(path.join(__dirname,'../client/index.html')));
 app.use('/api/whitelist', function(req, res){
     fs.readFile(path.join(__dirname, "../server/whitelist.json"), function (err,data) {
