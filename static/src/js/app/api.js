@@ -1,7 +1,7 @@
 /**
  * Created by BWY on 2017/9/21.
  */
-define(['jquery','text!/html/user.html!strip'], function($,template) {
+define(['jquery','text!/user.html!strip'], function($,template) {
     return {
         getUser: function() {
             var def = $.Deferred();
