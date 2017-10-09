@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "package": "node static/r.js -o static/app.build.js"
+    "package": "node static/r.js -o static/app.build.js",
+    "dev": "node server/server.js",
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/bwyfed/requirejs-demo/issues"
   },
-  "homepage": "https://github.com/bwyfed/requirejs-demo#readme"
+  "homepage": "https://github.com/bwyfed/requirejs-demo#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "opn": "^5.1.0"
+  }
 }
