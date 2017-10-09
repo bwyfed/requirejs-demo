@@ -8,6 +8,18 @@ css/index.css
 css/bootstrap.css
 css/index.css
 
+css/jquery-ui/jquery-ui.css
+----------------
+css/jquery-ui/jquery-ui.css
+
+css/jquery-ui/jquery-ui.structure.css
+----------------
+css/jquery-ui/jquery-ui.structure.css
+
+css/jquery-ui/jquery-ui.theme.css
+----------------
+css/jquery-ui/jquery-ui.theme.css
+
 js/lib/jquery-ui/jquery-ui.css
 ----------------
 js/lib/jquery-ui/jquery-ui.css
