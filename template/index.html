@@ -17,9 +17,11 @@
     </div>
 
     <!--<script data-main="../src/js/app.js" src="../src/js/lib/require/require.js"></script>-->
-    <!--<script data-main="../build/js/app.js" src="../src/js/lib/require/require.js"></script>-->
-    <script src="/js/lib/require/require.js"></script>
-    <script src="/js/require.conf.js"></script>
-    <script src="/js/app.js"></script>
+    <!--以下是生产模式下的入口点访问-->
+    <script data-main="/js/app" src="/js/lib/require/require.js"></script>
+    <!--以下是开发模式下的入口点访问-->
+    <!--<script src="/js/lib/require/require.js"></script>-->
+    <!--<script src="/js/require.conf.js"></script>-->
+    <!--<script src="/js/app.js"></script>-->
 </body>
 </html>

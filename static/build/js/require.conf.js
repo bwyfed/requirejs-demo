@@ -8,7 +8,7 @@ if(language) {
 }
 requirejs.config({
     urlArgs: '_=' + new Date().getTime(),
-    baseUrl: '../src/js',
+    baseUrl: './js',
     paths: {
         'jquery': './lib/jquery',
         'bootstrap': './lib/bootstrap',

@@ -14,7 +14,7 @@
             // exclude: ['backbone'],
             // excludeShallow: ['backbone'],
             // include: ['modernizr'],
-            insertRequire: ['modernizr']
+            insertRequire: ['lib/modernizr']
         },
         {
         name: 'user'

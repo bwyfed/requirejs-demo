@@ -46,9 +46,11 @@ app.use('/api/report', function(req, res) {
     res.setHeader('Access-Control-Allow-Headers','GET,POST');
     res.end("report success");
 });
+/*
 app.use('/',function (req,res) {
     res.sendFile(path.join(__dirname,'../client/test.html'));
 });
+*/
 app.listen(port);
 
 console.log('Server running at '+ uri +'\n');

@@ -24,7 +24,7 @@ js/app.js
 ----------------
 js/lib/jquery.js
 js/lib/require/text.js
-text!/html/user.html!strip
+text!/user.html!strip
 js/app/api.js
 js/lib/underscore.js
 js/lib/backbone.js
