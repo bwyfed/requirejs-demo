@@ -10,8 +10,14 @@ gulp.task('rjs',()=>{
     console.log($.requirejsOptimize);
     return gulp.src(['static/src/js/app.js','static/src/js/user.js'])
         .pipe($.requirejsOptimize({
-            mainConfigFile: './static/src/js/require.conf.js'
+            // out: './static/build',
+            optimize: 'none',
+            mainConfigFile: './static/src/js/require.gulp.conf.js',
+            inlineText: false,
+            name: 'app',
+            insertRequire: ['lib/modernizr']
         }))
+        .pipe(gulp.dest('./js'))
             /*
         .pipe($.requirejsOptimize({
             // appDir: './static/src',
