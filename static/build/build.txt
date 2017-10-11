@@ -23,6 +23,9 @@ css/jquery-ui/jquery-ui.theme.css
 css/main.css
 ----------------
 css/bootstrap.css
+css/jquery-ui/jquery-ui.css
+css/jquery-ui/jquery-ui.theme.css
+css/jquery-ui/jquery-ui.structure.css
 css/main.css
 
 js/lib/jquery-ui/jquery-ui.css
