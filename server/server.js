@@ -20,7 +20,7 @@ if(appconf.debug) {
     console.log('开发环境');
 } else {
     //生产环境，托管static下的build目录
-    staticDir = path.join(__dirname,'../static','./build');
+    staticDir = path.join(__dirname,'../static','./build-gulp');
     console.log('生产环境');
 }
 app.use(express.static(staticDir));
