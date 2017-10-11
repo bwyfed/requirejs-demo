@@ -69,6 +69,7 @@ require(['app/api',
         api.loadUser();
     })
     $("#dialog").dialog();
+    console.log('abc');
 })
 
 /*

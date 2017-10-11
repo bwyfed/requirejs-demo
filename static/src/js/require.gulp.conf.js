@@ -25,6 +25,7 @@ requirejs.config({
             exports: 'Modernizr'
         },
         'bootstrap': ['jquery']
+        // 'jquery-ui': ['css!./lib/jquery-ui/jquery-ui.css', 'css!./lib/jquery-ui/jquery-ui.theme.css']
     },
     config: {
         text: {
@@ -40,5 +41,5 @@ requirejs.config({
         '*': {
             'css': './lib/require/css',
         }
-    },
-})
+    }
+});
