@@ -12,7 +12,8 @@ gulp.task('rjs3',()=>{
         .pipe(
             $.requirejsOptimize({
                 optimize: 'none',
-                mainConfigFile: 'static/src/js/config.js'
+                mainConfigFile: 'static/src/js/config.js',
+                include: ['jquery']
             })
         )
         .pipe(gulp.dest('static/build-gulp/js'));
