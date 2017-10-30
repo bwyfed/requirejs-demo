@@ -11,7 +11,7 @@ const app = express();
 console.log('application.json:');
 console.log(appconf);
 const port = 3000;
-const uri = 'http://localhost:' + port + '/index.html';
+const uri = 'http://localhost:' + port + '/adtest.html';
 //根据配置的环境是开发还是部署，托管静态资源的目录页不同
 let staticDir;
 if(appconf.debug) {
@@ -24,6 +24,9 @@ if(appconf.debug) {
     console.log('生产环境');
 }
 app.use(express.static(staticDir));
+let pathprefix = '/rd/go/dh/static_files';
+// 以/rd/go/dh/static_files/amd开头的路径访问static/src目录
+app.use(pathprefix+'/amd', express.static(staticDir));
 //代理template下面的html文件，使得前端能直接访问到它们。
 app.use(express.static(path.join(__dirname,'../template')));
 // app.use(express.static(path.join(__dirname,'../client/index.html')));
