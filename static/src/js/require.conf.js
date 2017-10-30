@@ -7,7 +7,8 @@ if(language) {
     locale = language[0].split('=')[1];
 }
 requirejs.config({
-    urlArgs: '_=' + new Date().getTime(),
+    // urlArgs: '_=' + new Date().getTime(),
+    urlArgs: '_=2017103001',
     baseUrl: './js',
     paths: {
         'jquery': './lib/jquery',
